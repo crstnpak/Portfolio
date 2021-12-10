@@ -1,0 +1,138 @@
+body{
+    background-image: radial-gradient(pink, white);
+	margin:1%;
+	padding:1%;
+	font-size:150%;
+}
+
+
+header {
+    font-family: 'DotGothic16', sans-serif;
+    color: hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+
+}
+
+h1{
+    font-family: 'DotGothic16', sans-serif;
+    color: hotpink;
+    text-align: center;
+	font-size: 2em; 
+	font-weight: bold;
+}
+
+
+.navigation{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+
+
+img{
+    height: 400px;
+    width: auto;
+    padding: 25px;
+    margin: 10px;
+}
+
+h2{
+	font-size: 2em; 
+	font-weight: bold;
+}
+
+p, h1, h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+a.skip{
+    background: white;
+    left: 0;
+    padding: 6px;
+    position: absolute;
+    top: -40px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+}
+  
+a.skip:focus{
+    top:20px;
+}
+
+
+
+footer{
+    font-family: 'DotGothic16', sans-serif;
+    color: hotpink;
+    text-align: center;
+    margin: 10px 0;
+
+}
+
+.clothes{
+    /*display: grid;
+    grid-template-columns: auto auto;
+    justify-self: center;
+    align-content: center;
+    width: auto;
+    height: auto;
+    object-fit: contain;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.individuals{
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 300px 1fr;
+    gap: 1rem;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid rgb(230, 240, 240);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical; 
+}
+  
+input[type=submit] {
+    background-color: hotpink;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+input[type=submit]:hover {
+    background-color: lightpink;
+    display:flex;
+    align-content: left;
+  }
+  
+.container {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+
+
+
+
